@@ -14,6 +14,6 @@ const startGame = (gameFunction, rules) => {
       return;
     }
   }
-  console.log(`Congratulations, ${name}!`);
+  console.log(`Congratulations, ${name}.`);
 };
 export default startGame;
