@@ -10,10 +10,10 @@ const startGame = (gameFunction, rules) => {
     if (answer === correctAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}.`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
       return;
     }
   }
-  console.log(`Congratulations, ${name}.`);
+  console.log(`Congratulations, ${name}!`);
 };
 export default startGame;
