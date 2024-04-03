@@ -15,7 +15,7 @@ export const gameProgression = () => {
   const step = getRandomNumber(1, 10);
   const progressionLength = getRandomNumber(5, 10);
   const progression = makeProgression(start, step, progressionLength);
-  const indexElement = getRandomNumber(0, progression.length);
+  const indexElement = getRandomNumber(0, progression.length - 1);
   const correctAnswer = progression[indexElement].toString();
   progression[indexElement] = '..';
   const question = `Question: ${progression.join(' ')}`;
